@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+main{
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 13px 35px  2px  hsl(219, 55%, 10%),
+                -13px 35px  2px  hsl(219, 55%, 10%),
+                40px 65px  5px hsla(219, 56%, 11%,0.5),
+                -40px 65px  5px hsla(219, 56%, 11%,0.5) ,
+                 -40px -15px  5px hsla(219, 56%, 11%,0.5),
+                 40px -15px  5px hsla(219, 56%, 11%,0.5) 
+}
+
+.image{
+    width: 18.5rem ;
+    height: 18.5rem ;
+    border-radius: 7px;
+    margin: 7% 0 0 7.5%;
+}
+
+.container{
+    margin: 7%;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.container__secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secundario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.container__terceario{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 8px; 
+}
+
+.days-left{
+    color: hsl(215, 51%, 70%);
+}
+
+.footer{
+    margin: 6%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 0.1px solid hsl(215, 32%, 27%) ;
+}
+
+.footer__avatar{
+    margin-top: 1rem;
+    width: 35px ;
+    border: 1px solid #ffff;
+    border-radius: 100%;
+}
+
+.footer__name{
+    margin-top: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%)
+}
+
+strong{
+    font-weight: 400;
+}
